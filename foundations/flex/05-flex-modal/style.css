@@ -16,10 +16,13 @@ body {
 }
 
 .modal {
+  display: flex;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 15px;
+  gap: 15px;
 }
 
 .icon {
@@ -66,4 +69,16 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.header-close {
+  display: flex;
+  font-weight: bold;
+  font-size: 20px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.text {
+  margin-bottom: 10px;
 }
